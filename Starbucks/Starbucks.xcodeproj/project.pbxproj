@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F92E7C282A030D0054E532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F92E7B282A030D0054E532 /* AppDelegate.swift */; };
+		D0F92E7E282A030D0054E532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F92E7D282A030D0054E532 /* SceneDelegate.swift */; };
+		D0F92E80282A030D0054E532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F92E7F282A030D0054E532 /* ViewController.swift */; };
+		D0F92E83282A030D0054E532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F92E81282A030D0054E532 /* Main.storyboard */; };
+		D0F92E85282A030E0054E532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F92E84282A030E0054E532 /* Assets.xcassets */; };
+		D0F92E88282A030E0054E532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F92E86282A030E0054E532 /* LaunchScreen.storyboard */; };
+		D0F92E93282A030E0054E532 /* StarbucksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F92E92282A030E0054E532 /* StarbucksTests.swift */; };
+		D0F92E9D282A030E0054E532 /* StarbucksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F92E9C282A030E0054E532 /* StarbucksUITests.swift */; };
+		D0F92E9F282A030E0054E532 /* StarbucksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F92E9E282A030E0054E532 /* StarbucksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F92E8F282A030E0054E532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F92E70282A030D0054E532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F92E77282A030D0054E532;
+			remoteInfo = Starbucks;
+		};
+		D0F92E99282A030E0054E532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F92E70282A030D0054E532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F92E77282A030D0054E532;
+			remoteInfo = Starbucks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F92E78282A030D0054E532 /* Starbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F92E7B282A030D0054E532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0F92E7D282A030D0054E532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0F92E7F282A030D0054E532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0F92E82282A030D0054E532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0F92E84282A030E0054E532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F92E87282A030E0054E532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0F92E89282A030E0054E532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F92E8E282A030E0054E532 /* StarbucksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F92E92282A030E0054E532 /* StarbucksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksTests.swift; sourceTree = "<group>"; };
+		D0F92E98282A030E0054E532 /* StarbucksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F92E9C282A030E0054E532 /* StarbucksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksUITests.swift; sourceTree = "<group>"; };
+		D0F92E9E282A030E0054E532 /* StarbucksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F92E75282A030D0054E532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F92E8B282A030E0054E532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F92E95282A030E0054E532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F92E6F282A030D0054E532 = {
+			isa = PBXGroup;
+			children = (
+				D0F92E7A282A030D0054E532 /* Starbucks */,
+				D0F92E91282A030E0054E532 /* StarbucksTests */,
+				D0F92E9B282A030E0054E532 /* StarbucksUITests */,
+				D0F92E79282A030D0054E532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F92E79282A030D0054E532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F92E78282A030D0054E532 /* Starbucks.app */,
+				D0F92E8E282A030E0054E532 /* StarbucksTests.xctest */,
+				D0F92E98282A030E0054E532 /* StarbucksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F92E7A282A030D0054E532 /* Starbucks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F92E7B282A030D0054E532 /* AppDelegate.swift */,
+				D0F92E7D282A030D0054E532 /* SceneDelegate.swift */,
+				D0F92E7F282A030D0054E532 /* ViewController.swift */,
+				D0F92E81282A030D0054E532 /* Main.storyboard */,
+				D0F92E84282A030E0054E532 /* Assets.xcassets */,
+				D0F92E86282A030E0054E532 /* LaunchScreen.storyboard */,
+				D0F92E89282A030E0054E532 /* Info.plist */,
+			);
+			path = Starbucks;
+			sourceTree = "<group>";
+		};
+		D0F92E91282A030E0054E532 /* StarbucksTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F92E92282A030E0054E532 /* StarbucksTests.swift */,
+			);
+			path = StarbucksTests;
+			sourceTree = "<group>";
+		};
+		D0F92E9B282A030E0054E532 /* StarbucksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F92E9C282A030E0054E532 /* StarbucksUITests.swift */,
+				D0F92E9E282A030E0054E532 /* StarbucksUITestsLaunchTests.swift */,
+			);
+			path = StarbucksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F92E77282A030D0054E532 /* Starbucks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F92EA2282A030E0054E532 /* Build configuration list for PBXNativeTarget "Starbucks" */;
+			buildPhases = (
+				D0F92E74282A030D0054E532 /* Sources */,
+				D0F92E75282A030D0054E532 /* Frameworks */,
+				D0F92E76282A030D0054E532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starbucks;
+			productName = Starbucks;
+			productReference = D0F92E78282A030D0054E532 /* Starbucks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F92E8D282A030E0054E532 /* StarbucksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F92EA5282A030E0054E532 /* Build configuration list for PBXNativeTarget "StarbucksTests" */;
+			buildPhases = (
+				D0F92E8A282A030E0054E532 /* Sources */,
+				D0F92E8B282A030E0054E532 /* Frameworks */,
+				D0F92E8C282A030E0054E532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F92E90282A030E0054E532 /* PBXTargetDependency */,
+			);
+			name = StarbucksTests;
+			productName = StarbucksTests;
+			productReference = D0F92E8E282A030E0054E532 /* StarbucksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0F92E97282A030E0054E532 /* StarbucksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F92EA8282A030E0054E532 /* Build configuration list for PBXNativeTarget "StarbucksUITests" */;
+			buildPhases = (
+				D0F92E94282A030E0054E532 /* Sources */,
+				D0F92E95282A030E0054E532 /* Frameworks */,
+				D0F92E96282A030E0054E532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F92E9A282A030E0054E532 /* PBXTargetDependency */,
+			);
+			name = StarbucksUITests;
+			productName = StarbucksUITests;
+			productReference = D0F92E98282A030E0054E532 /* StarbucksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F92E70282A030D0054E532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D0F92E77282A030D0054E532 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					D0F92E8D282A030E0054E532 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = D0F92E77282A030D0054E532;
+					};
+					D0F92E97282A030E0054E532 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = D0F92E77282A030D0054E532;
+					};
+				};
+			};
+			buildConfigurationList = D0F92E73282A030D0054E532 /* Build configuration list for PBXProject "Starbucks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0F92E6F282A030D0054E532;
+			productRefGroup = D0F92E79282A030D0054E532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F92E77282A030D0054E532 /* Starbucks */,
+				D0F92E8D282A030E0054E532 /* StarbucksTests */,
+				D0F92E97282A030E0054E532 /* StarbucksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F92E76282A030D0054E532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F92E88282A030E0054E532 /* LaunchScreen.storyboard in Resources */,
+				D0F92E85282A030E0054E532 /* Assets.xcassets in Resources */,
+				D0F92E83282A030D0054E532 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F92E8C282A030E0054E532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F92E96282A030E0054E532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F92E74282A030D0054E532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F92E80282A030D0054E532 /* ViewController.swift in Sources */,
+				D0F92E7C282A030D0054E532 /* AppDelegate.swift in Sources */,
+				D0F92E7E282A030D0054E532 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F92E8A282A030E0054E532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F92E93282A030E0054E532 /* StarbucksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F92E94282A030E0054E532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F92E9D282A030E0054E532 /* StarbucksUITests.swift in Sources */,
+				D0F92E9F282A030E0054E532 /* StarbucksUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F92E90282A030E0054E532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F92E77282A030D0054E532 /* Starbucks */;
+			targetProxy = D0F92E8F282A030E0054E532 /* PBXContainerItemProxy */;
+		};
+		D0F92E9A282A030E0054E532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F92E77282A030D0054E532 /* Starbucks */;
+			targetProxy = D0F92E99282A030E0054E532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F92E81282A030D0054E532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F92E82282A030D0054E532 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F92E86282A030E0054E532 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F92E87282A030E0054E532 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F92EA0282A030E0054E532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0F92EA1282A030E0054E532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F92EA3282A030E0054E532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9G6PC5FMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starbucks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanghee.Starbucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0F92EA4282A030E0054E532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9G6PC5FMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starbucks/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanghee.Starbucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0F92EA6282A030E0054E532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9G6PC5FMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanghee.StarbucksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starbucks.app/Starbucks";
+			};
+			name = Debug;
+		};
+		D0F92EA7282A030E0054E532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9G6PC5FMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanghee.StarbucksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starbucks.app/Starbucks";
+			};
+			name = Release;
+		};
+		D0F92EA9282A030E0054E532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9G6PC5FMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanghee.StarbucksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Starbucks;
+			};
+			name = Debug;
+		};
+		D0F92EAA282A030E0054E532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9G6PC5FMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanghee.StarbucksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Starbucks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F92E73282A030D0054E532 /* Build configuration list for PBXProject "Starbucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F92EA0282A030E0054E532 /* Debug */,
+				D0F92EA1282A030E0054E532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F92EA2282A030E0054E532 /* Build configuration list for PBXNativeTarget "Starbucks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F92EA3282A030E0054E532 /* Debug */,
+				D0F92EA4282A030E0054E532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F92EA5282A030E0054E532 /* Build configuration list for PBXNativeTarget "StarbucksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F92EA6282A030E0054E532 /* Debug */,
+				D0F92EA7282A030E0054E532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F92EA8282A030E0054E532 /* Build configuration list for PBXNativeTarget "StarbucksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F92EA9282A030E0054E532 /* Debug */,
+				D0F92EAA282A030E0054E532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F92E70282A030D0054E532 /* Project object */;
+}
